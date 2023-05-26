@@ -1,0 +1,52 @@
+testing
+  input file in the task directory
+  output files go to impl directories
+  testing script runs everything and diffs files
+    set of hashes
+      
+diff -q --from-file  
+
+
+execute run.sh in each impl
+  it should build and execute
+
+
+tasks
+  tasks from AoC
+    space stoichiometry
+  diffing tool
+    diffs multiple files, groups them by similarity
+      seems sick in python! key larger than values
+  fibs
+  factorial
+  parse test suite
+    that's a library
+    lib/load_tests.lang
+  bubble sort
+  insertion sort
+  binary search
+  change making
+  hash table
+  trie
+  game of life
+  hashlife
+  parse sexpr
+  lisp evaluator
+  theorem prover
+  travelling salesman
+  newton's method
+  solve a set of equations
+  matmul
+  dfs
+  bfs
+  vector search
+  rock paper scisor
+  tower of hanoi
+  tic tac toe with minmax
+
+test against stuff from rosetta code
+
+node IO's lags hard
+  only rewriting file
+  appending to file is fast
+why?
