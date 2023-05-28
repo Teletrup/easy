@@ -3,6 +3,11 @@
 
 path=$PWD
 
+run_lisp() {
+  sbcl --script main.lisp
+}
+export -f run_lisp
+
 run_python() {
   python main.py
 }
@@ -20,7 +25,8 @@ do
   do
     echo "running $iname:"
     cd $iname
-    ./run.sh
+    #./run.sh
+    make
     cd $path
   done
   diff -q --from-file $tname/*/out.txt 
